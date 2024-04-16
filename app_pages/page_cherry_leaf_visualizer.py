@@ -11,7 +11,7 @@ import itertools
 import random
 
 
-def page_leaf_visualizer_body():
+def page_cherry_leaf_visualizer_body():
     st.write("### Cherry Leaf Visualizer")
     st.info(
         f"The client is interested in the Visual differentiation"
