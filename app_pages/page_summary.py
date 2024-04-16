@@ -24,7 +24,7 @@ def page_summary_body():
 
     st.write(
         f"**Dataset**\n\n"
-        f"The dataset was provided by the cliend. "
+        f"The dataset was provided by the client.\n "
         f"It contains 4208 images of cherry leaves, "
         f"2104 healthy leaves and 2104 powdery mildew infected leaves.")
 
