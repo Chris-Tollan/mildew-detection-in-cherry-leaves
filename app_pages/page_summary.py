@@ -23,15 +23,15 @@ def page_summary_body():
 
 
     st.write(
-        f"**Dataset**\n\n"
-        f"The dataset was provided by the client.\n "
-        f"It contains 4208 images of cherry leaves, "
-        f"2104 healthy leaves and 2104 powdery mildew infected leaves.")
-
-
-    st.write(
-        f"* For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/Chris-Tollan/mildew-detection-in-cherry-leaves).")
+        f"**Project Requirements**\n\n"
+        f"* The intention of this project is to use conventional "
+        f"data analysis to conduct a study to visually differentiate a "
+        f"cherry leaf that is healthy from one that contains powdery mildew.\n "
+        f"* The client will also be presented with the capability to predict "
+        f"if a cherry leaf is healthy or contains powdery mildew.\n"
+        f"It was agreed with the client that the performance goal of the "
+        f"predictions would be a degree of 97% accuracy in establishing if "
+        f"a cherry leaf is healthy or infected with powdery mildew.\n")
 
 
     st.success(
@@ -42,4 +42,15 @@ def page_summary_body():
         f"* 2 - The client is interested in predicting if a cherry leaf is "
         f"healthy or contains powdery mildew."
         )
+    
+    st.write(
+        f"**Dataset**\n\n"
+        f"The dataset was provided by the client.\n "
+        f"It contains 4208 images of cherry leaves, "
+        f"2104 healthy leaves and 2104 powdery mildew infected leaves.")
+
+
+    st.write(
+        f"* For additional information, please visit and **read** the "
+        f"[Project README file](https://github.com/Chris-Tollan/mildew-detection-in-cherry-leaves).")
 
