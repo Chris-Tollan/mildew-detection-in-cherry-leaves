@@ -14,8 +14,8 @@ import random
 def page_cherry_leaf_visualizer_body():
     st.write("### Cherry Leaf Visualizer")
     st.info(
-        f"The client is interested in the Visual differentiation"
-        f"of healthy cherry leaves to that of a cherry leaf"
+        f"The client is interested in the Visual differentiation "
+        f"of healthy cherry leaves to that of a cherry leaf "
         f"that is infected with powdery mildew.")
 
     version = 'v1'
@@ -27,9 +27,9 @@ def page_cherry_leaf_visualizer_body():
         )
 
         st.warning(
-            f"* We notice that cherry leaves infected with powdery"
-            f"mildew do present subtle light marks on them them"
-            f"which can not be seen on healthy leaves"
+            f"* We notice that cherry leaves infected with powdery "
+            f"mildew do present subtle light marks on them them "
+            f"which can not be seen on healthy leaves "
             f"however the average and variability images did not show "
             f"patterns where we could intuitively differentiate one from another."
         )
