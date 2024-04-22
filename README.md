@@ -28,6 +28,18 @@ The two business requirements identified for this project are -
 
 ## Hypothesis and validation
 
+### Hypothesis
+
+Plants which are infected with powdery mildew show distinct markings on their leaves which indicate infection. The markings on an infected leaf are usually light powdery stripes and spots.
+
+### How to Validate
+
+In order to be able to validate this hypothesis firstly we must research powdery mildew infection, understand why and how it occurs and thereafter be able to recognise the signs and symptoms. Then, I must use the dataset provided by the client in order to create an image study which will allow us to investigate the images of leaves and us this to build a Machine Learning System capable of recognising if an image of a cherry leaf is either healthy or infected with powdery mildew.
+
+### Validation
+
+By displaying images of infected and healthy leaves we can visually compare them in order to establish differences in the leaves. This is done by creating an image montage to conduct the comparison of infected and healthy leaves. From analysis of the montage it can be seen that infected leaves show distinct white markings that the healthy leaves dont.
+
 ## Dashboard Design (Streamlit App User Interface)
 
 ## The process of Cross-industry standard process for data mining
