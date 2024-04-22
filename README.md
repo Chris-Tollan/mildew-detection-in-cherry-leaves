@@ -20,6 +20,12 @@ The dataset was sourced from Kaggle and can be accessed [here.](https://www.kagg
 
 ## Business Requirements
 
+As previously summerised, our client, Farmy & Foods are facing a challenge as a result of their Cherry Tree Plantation showing signs of powder mildew infection. It currently take employees around 30 minutes to inspect a cherry tree and confirm if it is healthy or infected. The company has thousands of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection. Our goal is to produce a Machine Learning System which is capable of examing images of the cherry tree leaves and confirming if they are healthy or infected.
+
+The two business requirements identified for this project are - 
+* The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew.
+* The client is interested in predicting if a cherry tree is healthy or contains powdery mildew.
+
 ## Hypothesis and validation
 
 ## Dashboard Design (Streamlit App User Interface)
