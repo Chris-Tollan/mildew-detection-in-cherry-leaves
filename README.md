@@ -14,6 +14,10 @@ The main overall intention of the project was to create a Machine Learning Syste
 
 ## Dataset Content
 
+The dataset for this project was provided by the client. It contained a total of 4208 images which were split into 2104 healthy images and 2104 powery mildew infected images of cherry leaves.
+
+The dataset was sourced from Kaggle and can be accessed [here.](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+
 ## Business Requirements
 
 ## Hypothesis and validation
