@@ -29,9 +29,8 @@ def page_cherry_leaf_visualizer_body():
         st.warning(
             f"* We notice that cherry leaves infected with powdery "
             f"mildew do present subtle light marks on them them "
-            f"which can not be seen on healthy leaves "
-            f"however the average and variability images did not show "
-            f"patterns where we could intuitively differentiate one from another."
+            f"which can not be seen on healthy leaves. This allows us to "
+            f"differentiate one from another."
         )
 
         st.image(avg_healthy, caption='Healthy Leaf - Average & Variability')
