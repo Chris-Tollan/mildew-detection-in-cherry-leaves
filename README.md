@@ -89,7 +89,11 @@ A Convolutional Neural Network (CNN) will be created to examine pre-labeled leaf
 
 The model created for this project is a Convolutional Neural Network (CNN) for image classification. It consists of three convolutional layers with max pooling after each convolutional layer to downsample the feature maps. After the convolutional layers, there is a flatten layer to transform the 2D feature maps into a 1D vector. This is followed by two fully connected layers with activation functions and dropout regularization. The output layer has two neurons with softmax activation for binary classification. The model is compiled with categorical cross-entropy loss function, Adagrad optimizer, and accuracy as the metric.
 
-### Model Performance
+### Model Performance and training
+
+A learning curve illustrates the model's learning performance over time or experience. It is a common tool used in machine learning to assess algorithms that learn from a training dataset gradually. By evaluating the model's performance on both the training dataset and a separate validation dataset after each update during training, learning curves can be plotted to identify any issues, such as underfit or overfit models, and determine if the datasets are appropriately representative. In general, a learning curve typically displays the number of training passes (Epoch) on the x-axis and the level of learning or improvement (Loss/Accuracy) on the y-axis. The goal is to find a good fit for the learning algorithm, where the training and validation loss converge to stable values with minimal difference. It is important to note that a gap between the two curves, known as the "generalization gap," is expected. Continued training of a well-fitted model may lead to overfitting, which is why early stopping is typically implemented in machine learning models to prevent this.
+
+For the model used in this project 20 epochs were used for training.
 
 ## Dashboard Design
 
