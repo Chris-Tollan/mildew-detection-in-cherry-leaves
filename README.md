@@ -125,6 +125,8 @@ The Dashboard created for this project consists of five pages in total.
 
 ## Bugs
 
+There were no bugs encountered during this project.
+
 ## Deployment
 The project code is stored on GitHub and deployed with [Heroku](https://www.heroku.com/). 
 The steps needed to deploy this projects are as follows:
@@ -215,10 +217,15 @@ In order to protect the main branch while you work on something new, essential w
 
 ### Content
 - The dataset for the cherry leaves was obtained from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves) and created by [Code Institute](https://www.kaggle.com/codeinstitute)
-
-### Media
+- The content describing powdery mildew infection in cherry leaves used throughout the project was written by the developer using information gleaned from the online research of the following -
+    - [wikipedia - powdery mildew](https://en.wikipedia.org/wiki/Powdery_mildew)
+    - [treefruit - cherry-powdery-mildew](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/)
+    - [RHS - Powdery-Mildews](https://www.rhs.org.uk/disease/powdery-mildews)
 
 ### Code
+- The template used to create this project was provided by, and belong to [Code Institute](https://codeinstitute.net/) and can be accessed below.
+    - [Code Institute - Github - Milestone project mildew detection in cherry leaves](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves)
+- Whilst completing this project I have followed the code used in the [Code Institute](https://codeinstitute.net/) Predictive Analytics - Malaria Detector/Walkthrough Project 1 to assist in structuring this projects Data Collection, Data Visualization and Modelling and Evaluation notebooks as well as the app pages for the Streamlit dashboard.
 
 ### Acknowledgements
 
