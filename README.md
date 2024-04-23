@@ -61,6 +61,20 @@ These user stories were implemented by -
 - Users can visualize the difference between healthy leaves and infected leaves on the Cherry Leaf Visualizer page of the Dashboard.
 - Users can create an image montage of healthy or infected cherry leaf images on the Cherry Leaf Visualizer page.
 
+#### Average and Variability
+
+![average_and_variability_images](readme_images/average_and_variability_images.png)
+
+#### Difference between average healthy and infected leaves
+
+![Difference between average healthy and infected leaves](readme_images/difference_between_average_healthy_and_infected.png)
+
+#### Image Montage of Healthy and Infected Leaves
+
+![healthy_image_montage](readme_images/healthy_image_montage.png)
+
+![infected_image_montage](readme_images/infected_image_montage.png)
+
 ### Business Requirement 2
 * The client is interested in predicting if a cherry tree is healthy or contains powdery mildew. 
 
@@ -95,6 +109,12 @@ A learning curve illustrates the model's learning performance over time or exper
 
 For the model used in this project 20 epochs were used for training.
 
+![model_history](readme_images/model_history.png)
+
+![test_set_performance](readme_images/test_set_performance.png)
+
+![evaluate_saved_model](readme_images/evaluate_saved_model.png)
+
 ## Dashboard Design
 
 The Dashboard created for this project consists of five pages in total.
@@ -107,6 +127,8 @@ The Dashboard created for this project consists of five pages in total.
     - The content of the dataset used explained
     - A link for the user to access this README
 
+![summary](readme_images/quick_project_summary.png)
+
 ### Cherry leaf Visualizer Page
 - On this page users can use three checkboxes to -
     - View the difference between average and variability image
@@ -115,6 +137,8 @@ The Dashboard created for this project consists of five pages in total.
 
 - This page successfully answers Business Requirement 1.
 
+![visualiser](readme_images/cherry_leaves_visualiser.png)
+
 ### Mildew Infection Detector Page
 - This page is where users can use the model to make a live prediction on weather cherry leaves are healthy or infected.
     - The user can download a set of images of Cherry Leaves.
@@ -122,16 +146,22 @@ The Dashboard created for this project consists of five pages in total.
     - The user is provided an instant prediction on the images they have uploaded along with the probability metrics.
     - The user can download the prediction report in a ```.csv``` format. 
 
+![detector](readme_images/mildew_infection_detector.png)
+
 - This page successfully answers Business Requirement 2.
   
 ### Project Hypothesis Page
 - This page provides details on the project Hypothesis and how it was validated. 
+
+![hypothesis](readme_images/hypothesis.png)
 
 ### ML Performance Page
 - This page shows how the dataset was divided to fit and train the model and also how the model performs.
     - Label Frequencies for Train, Validation and Test Sets
     - Model History - Accuracy and Losses of Model
     - Model evaluation result on Test set
+
+![ml performance](readme_images/ml_performance_metrics.png)
 
 ## Bugs
 
