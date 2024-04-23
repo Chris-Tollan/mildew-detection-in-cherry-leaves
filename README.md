@@ -165,7 +165,7 @@ The Dashboard created for this project consists of five pages in total.
 
 ### ML Performance Page
 - This page shows how the dataset was divided to fit and train the model and also how the model performs.
-    - Label Frequencies for Train, Validation and Test Sets
+    - Label Frequencies for Train, Validation and Test Sets displayed in a Bar Chart.
     - Model History - Accuracy and Losses of Model
     - Model evaluation result on Test set
 
