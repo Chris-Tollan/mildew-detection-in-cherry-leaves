@@ -139,13 +139,37 @@ In order to protect the main branch while you work on something new, essential w
 ## Technologies used
 
 ### Platforms
-
+- [Kaggle](https://www.kaggle.com/) for the cherry leaf image dataset
+- [GitHub](https://github.com/) online cloud storage where the projects code is stored
+- [Gitpod](https://gitpod.io/) as a cloud-based IDE for development
+- [Jupyter](https://jupyter.org/) for the project's CRISP-DM workflow and development
+- [Streamlit](https://streamlit.io/) Used to create the dashboard for the deployed project
+- [Heroku](https://heroku.com/) cloud-based platform used to deploy the project
 
 ### Languages
 - [Python](https://www.python.org/)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown)
   
 ### Main Data Analysis and Machine Learning Libraries
+- [NumPy](https://numpy.org/) for converting images to an array
+- [Pandas](https://pandas.pydata.org/) for creating dataframes
+- [Matplotlib](https://matplotlib.org/) for data visualization
+- [Plotly](https://plotly.com/python/) for data visualization
+- [TensorFlow](hhttps://www.tensorflow.org/api_docs) for implementing best practices in data automation, model tracking, performance monitoring
+- [Scikit-learn](https://scikit-learn.org/) for image classification
+
+### Installed Packages
+- numpy==1.19.2
+- pandas==1.1.2
+- matplotlib==3.3.1
+- seaborn==0.11.0
+- plotly==4.12.0
+- streamlit==0.85.0
+- scikit-learn==0.24.2
+- tensorflow-cpu==2.6.0
+- keras==2.6.0
+- protobuf==3.20
+- altair<5
 
 ## Credits 
 
