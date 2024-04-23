@@ -85,6 +85,12 @@ This will help the client speed up the process of inspecting Cherry Leaves and i
 
 A Convolutional Neural Network (CNN) will be created to examine pre-labeled leaf images. The network will be programmed to recognize the main characteristic within the dataset, specifically the existence of powdery mildew infection in the cherry leaf images.
 
+### Model Creation
+
+The model created for this project is a Convolutional Neural Network (CNN) for image classification. It consists of three convolutional layers with max pooling after each convolutional layer to downsample the feature maps. After the convolutional layers, there is a flatten layer to transform the 2D feature maps into a 1D vector. This is followed by two fully connected layers with activation functions and dropout regularization. The output layer has two neurons with softmax activation for binary classification. The model is compiled with categorical cross-entropy loss function, Adagrad optimizer, and accuracy as the metric.
+
+### Model Performance
+
 ## Dashboard Design
 
 The Dashboard created for this project consists of five pages in total.
