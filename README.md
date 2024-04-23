@@ -115,6 +115,12 @@ For the model used in this project 20 epochs were used for training.
 
 ![evaluate_saved_model](readme_images/evaluate_saved_model.png)
 
+### Conclusion
+
+- Infected leaves can be clearly differentiated from healthy leaves due to the white markings visible on infected leaves.
+- Following testing of our model the learning curve and performance of the test sets shows the model is operating accurately and can predict if a cherry leaf if either infected wth powdery mildew or healthy with a high degree of accuracy.
+- The client asked for the model to achieve 97% accuracy. Our evaluation of our saved model shows it is operating at 98.1% accuracy, therefore exceeding the clients expectations! 
+
 ## Dashboard Design
 
 The Dashboard created for this project consists of five pages in total.
