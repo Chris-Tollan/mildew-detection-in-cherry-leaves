@@ -1,5 +1,7 @@
 # Mildew Detection in Cherry Leaves
 
+The deployed streamlit app can be accessed via this link - [Mildew Infection Detector](https://mildew-detector-dashboard-6ea257efdb85.herokuapp.com/)
+
 This project was developed for Farmy & Foods, a company in the agricultural sector that produces and harvests different types of food. Recently, the company has faced a challenge where their cherry plantations have been presenting powdery mildew, which is a fungal disease that affects a wide range of plants. The cherry plantation crop is one of their finest products and the company is concerned about supplying the market with a product of compromised quality.
 
 Powdery mildew is a fungal disease that commonly affects cherry trees. It appears as a white or gray powdery substance on the leaves, stems, and sometimes fruit of the tree. The fungus responsible for powdery mildew thrives in warm, humid conditions and is spread through spores being carried by the wind.
