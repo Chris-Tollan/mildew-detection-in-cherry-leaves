@@ -62,7 +62,7 @@ These user stories were implemented by -
 - Users can create an image montage of healthy or infected cherry leaf images on the Cherry Leaf Visualizer page.
 
 ### Business Requirement 2
-* The client is interested in predicting if a cherry tree is healthy or contains powdery mildew.
+* The client is interested in predicting if a cherry tree is healthy or contains powdery mildew. 
 
 #### User Stories
 
@@ -78,10 +78,50 @@ These user stories were implemented by -
 - In the mildew infection detector page users can upload an image, or multiple images at the same time, for prediction. This allows for a quick analysis to be conducted and provides the client with confirmation if the leaves are healthy or infected.
 - Users can download a copy of a prediction report which they can save for their own use.
 
+### Machine Learning Business Case
 
-## Dashboard Design (Streamlit App User Interface)
+Our goal is to create a machine learning model that predicts if a leaf is infected with Powdery Mildew using a dataset provided by the client consisting of images of cherry leaves, both healthy and infected. The model will be a binary classifier for infected and uninfected leaves, aiming for a minimum 97% accuracy on the test set. Employees will manually upload leaf images to the application for real-time predictions, streamlining the diagnostic process. Currently, manual diagnosis is time-consuming and error-prone, with scalability being a concern due to the large number of cherry trees. The dataset used for training and evaluation contains over 4,000 cherry leaf images provided by our client, Farmy & Foods. '
+This will help the client speed up the process of inspecting Cherry Leaves and if successfully will be rolled out into other crops throughout the clients business.
 
-## The process of Cross-industry standard process for data mining
+A Convolutional Neural Network (CNN) will be created to examine pre-labeled leaf images. The network will be programmed to recognize the main characteristic within the dataset, specifically the existence of powdery mildew infection in the cherry leaf images.
+
+## Dashboard Design
+
+The Dashboard created for this project consists of five pages in total.
+
+### Summary Page
+
+- On this page the project is summerized and broken down into a number of sections namely -
+    - General informaiton about Powdery Mildew Infection.
+    - The project and business requirements.
+    - The content of the dataset used explained
+    - A link for the user to access this README
+
+### Cherry leaf Visualizer Page
+- On this page users can use three checkboxes to -
+    - View the difference between average and variability image
+    - View the differences between average mildew infected and healthy leaves
+    - Create an Image Montage of either infected or healthy leaves. 
+
+- This page successfully answers Business Requirement 1.
+
+### Mildew Infection Detector Page
+- This page is where users can use the model to make a live prediction on weather cherry leaves are healthy or infected.
+    - The user can download a set of images of Cherry Leaves.
+    - The page contains an upload widget allowing them to upload an image, or multiple images for the model to predict on.
+    - The user is provided an instant prediction on the images they have uploaded along with the probability metrics.
+    - The user can download the prediction report in a ```.csv``` format. 
+
+- This page successfully answers Business Requirement 2.
+  
+### Project Hypothesis Page
+- This page provides details on the project Hypothesis and how it was validated. 
+
+### ML Performance Page
+- This page shows how the dataset was divided to fit and train the model and also how the model performs.
+    - Label Frequencies for Train, Validation and Test Sets
+    - Model History - Accuracy and Losses of Model
+    - Model evaluation result on Test set
 
 ## Bugs
 
