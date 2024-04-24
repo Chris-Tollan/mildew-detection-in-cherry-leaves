@@ -14,7 +14,7 @@ def page_mildew_infection_detector_body():
     st.info(
         f"* The client is interested in telling whether a leaf is "
         f"infected with powdery mildew or if it is healthy.\n"
-        f"* An image can be uploaded below to eastblish if it is "
+        f"* An image can be uploaded below to establish if it is "
         f" healthy or infected."
         )
 
