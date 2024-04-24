@@ -12,17 +12,17 @@ To prevent and manage powdery mildew in cherry trees, it is important to regular
 
 Prior to completion of this project, Farmy & Foods employees would manually inspect leaves to establish if they were infected or healthy. This process would usually take around 30 minutes per tree. 
 
-The main overall intention of the project was to create a Machine Learning System with the capability to instantly detect in an image of a leave was healthy or infected, this would ensure the company could continue to provide a high quality healthy product without the need for time consuming manual inspections.
+The main overall intention of the project was to create a Machine Learning System with the capability to instantly detect if an image of a leave was healthy or infected, this would ensure the company could continue to provide a high quality healthy product without the need for time consuming manual inspections.
 
 ## Dataset Content
 
-The dataset for this project was provided by the client. It contained a total of 4208 images which were split into 2104 healthy images and 2104 powery mildew infected images of cherry leaves.
+The dataset for this project was provided by the client. It contained a total of 4208 images which were split into 2104 healthy images and 2104 powdery mildew infected images of cherry leaves.
 
 The dataset was sourced from Kaggle and can be accessed [here.](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
 ## Business Requirements
 
-As previously summerised, our client, Farmy & Foods are facing a challenge as a result of their Cherry Tree Plantation showing signs of powder mildew infection. It currently take employees around 30 minutes to inspect a cherry tree and confirm if it is healthy or infected. The company has thousands of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection. Our goal is to produce a Machine Learning System which is capable of examing images of the cherry tree leaves and confirming if they are healthy or infected.
+As previously summerised, our client, Farmy & Foods are facing a challenge as a result of their Cherry Tree Plantation showing signs of powdery mildew infection. It currently take employees around 30 minutes to inspect a cherry tree and confirm if it is healthy or infected. The company has thousands of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection. Our goal is to produce a Machine Learning System which is capable of examing images of the cherry tree leaves and confirming if they are healthy or infected.
 
 The two business requirements identified for this project are - 
 * The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew.
@@ -73,7 +73,11 @@ These user stories were implemented by -
 
 #### Image Montage of Healthy and Infected Leaves
 
+- Healthy Cherry Leaves
+
 ![healthy_image_montage](readme_images/healthy_image_montage.png)
+
+- Powdery Mildew Infected Cherry Leaves
 
 ![infected_image_montage](readme_images/infected_image_montage.png)
 
