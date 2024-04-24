@@ -43,7 +43,10 @@ def page_cherry_leaf_visualizer_body():
         st.warning(
             f"* We notice this study didn't show "
             f"patterns where we could intuitively differentiate "
-            f"one to another.")
+            f"one to another however subtle white markings "
+            f"with a powder like appearance can be seen on "
+            f"infected leaves that aren't present on healthy "
+            f"leaves.")
         st.image(
             diff_between_avgs, caption='Difference between average images'
         )
